@@ -4,7 +4,8 @@
 	"version": "0.0.0",
 	"scripts": {
 		"lint": "tsc --noEmit",
-		"test-api": "node vitest.ts --jsdom && node vitest.ts --browser",
+		"test-api-browser": "node vitest.ts --browser",
+		"test-api-jsdom": "node vitest.ts --jsdom",
 		"test-config": "vitest run --config=vitest.config.browser.ts"
 	},
 	"devDependencies": {
